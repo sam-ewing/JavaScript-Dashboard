@@ -1,4 +1,4 @@
-d3.json("http://localhost:8000/samples.json").then((data) => {
+d3.json("samples.json").then((data) => {
     
 // Assign selections to variables to simplify data structure
     var names= data.names
